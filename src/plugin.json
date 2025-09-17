@@ -4,6 +4,7 @@
   "name": "Datadog",
   "id": "wasilak-datadog-datasource",
   "metrics": true,
+  "annotations": true,
   "category": "tsdb",
   "routes": [
     {
