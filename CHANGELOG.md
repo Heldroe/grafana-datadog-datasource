@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.4
+
+- added support for annotations
+
 ## 0.3.3
 
 - fixed query URI encoding
