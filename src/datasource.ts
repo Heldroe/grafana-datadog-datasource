@@ -41,6 +41,8 @@ export class DataSource extends DataSourceApi<MyQuery, MyDataSourceOptions> {
 
   routePath = '/wasilak-datadog-datasource';
 
+  annotations = {};
+
   constructor(instanceSettings: DataSourceInstanceSettings<MyDataSourceOptions>) {
     super(instanceSettings);
     this.url = instanceSettings.url;
